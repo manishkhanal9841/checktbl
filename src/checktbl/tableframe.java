@@ -36,9 +36,9 @@ public class tableframe extends JFrame {
 	 */
 	public tableframe() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 600, 600);
+		setBounds(100, 100, 400, 400);
 		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setBorder(new EmptyBorder(10, 5, 15, 10));
 
 		setContentPane(contentPane);
 		
